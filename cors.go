@@ -24,8 +24,9 @@ package cors
 // Access-Control-Allow-Methods.
 func AllowedMethods() []string {
 	return []string{
-		"GET",  // for Connect
-		"POST", // for all protocols
+		"GET",   // for Connect
+		"POST",  // for all protocols
+		"QUERY", // for Connect
 	}
 }
 
